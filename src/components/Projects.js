@@ -11,30 +11,30 @@ function Projects() {
             title: 'Whatsapp CLone',
             description: 'Design and Develop',
             imgUrl: Img,
-            gitUrl: 'github.com/blackmile'
+            gitUrl: 'https://github.com/blackmile'
         },
         {
             title: 'Whatsapp CLone',
             description: 'Design and Develop',
             imgUrl: Img,
-            gitUrl: 'github.com/blackmile'
+            gitUrl: 'https://github.com/blackmile'
         },
         {
             title: 'Whatsapp CLone',
             description: 'Design and Develop',
             imgUrl: Img,
-            gitUrl: 'github.com/blackmile'
+            gitUrl: 'https://github.com/blackmile'
         },
         {
             title: 'Whatsapp CLone',
             description: 'Design and Develop',
             imgUrl: Img,
-            gitUrl: 'github.com/blackmile'
+            gitUrl: 'https://github.com/blackmile'
         },
     ]
 
   return (
-    <section className='project' id='project'>
+    <section className='project' id='projects'>
         <Container>
             <Row>
               <Col>
@@ -71,7 +71,7 @@ function Projects() {
               </Col>  
             </Row>
         </Container>
-        <img className='background-image-right' src={bg3} />
+        <img className='background-image-right' src={bg3} alt={''} />
     </section>
   )
 }
